@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import "primeicons/primeicons.css";
+
+@source "../index.html";
+@source "./**/*.{vue,js,ts,jsx,tsx}";

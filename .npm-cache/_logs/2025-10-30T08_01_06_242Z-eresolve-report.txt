@@ -1,0 +1,25 @@
+'Log files:
+/Users/sky/Downloads/vue3-typescript-tailwind-starter-main/.npm-cache/_logs/2025-10-30T08_01_06_242Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: vue3-ts-tailwind-starter@0.0.0
+Found: @typescript-eslint/eslint-plugin@5.12.1
+node_modules/@typescript-eslint/eslint-plugin
+  dev @typescript-eslint/eslint-plugin@"^8.46.2" from the root project
+  @typescript-eslint/eslint-plugin@"^5.0.0" from @vue/eslint-config-typescript@10.0.0
+  node_modules/@vue/eslint-config-typescript
+    dev @vue/eslint-config-typescript@"^14.6.0" from the root project
+
+Could not resolve dependency:
+dev @typescript-eslint/eslint-plugin@"^8.46.2" from the root project
+
+Conflicting peer dependency: @typescript-eslint/parser@8.46.2
+node_modules/@typescript-eslint/parser
+  peer @typescript-eslint/parser@"^8.46.2" from @typescript-eslint/eslint-plugin@8.46.2
+  node_modules/@typescript-eslint/eslint-plugin
+    dev @typescript-eslint/eslint-plugin@"^8.46.2" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
